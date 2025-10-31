@@ -1,0 +1,8 @@
+{
+  "tail_prompt": {
+    "description": "在 LLM 请求前将以 assistant 角色追加到对话上下文末尾的提示词。",
+    "type": "text",
+    "hint": "插入位置固定为最底部，角色固定为 assistant（AI）。在此编辑插入的提示词内容。",
+    "default": "请直接给出最终答案，不要展示推理过程或思维链。"
+  }
+}
